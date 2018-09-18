@@ -4,6 +4,5 @@ public class ComoTeLlamas {
         String nombre = JOptionPane.showInputDialog("Como te llamas?");
         JOptionPane.showMessageDialog(null, "Tu nombre es " + nombre);
 
-        //ari gay 
     }
 }
