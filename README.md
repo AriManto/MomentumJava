@@ -1,2 +1,2 @@
 # MomentumJava
-Proyectos colaborativos iniciales
+Proyectos colaborativos iniciales, en Java
