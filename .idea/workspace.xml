@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be145ece-f7c6-45cc-ab4b-fa5a25dada13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Basico/src/ConversorMonedas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basico/src/ConversorPulgadasCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio 1/Calculadora/src/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basico/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Basico/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basico/src/ComoTeLlamas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basico/src/ComoTeLlamas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basico/src/GUItesterino.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basico/src/GUItesterino.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio 1/Calculadora/src/calculadora/Calculadora.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basico/src/PromedioNotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,47 +24,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4732" />
+          <entry key="java" value="5687" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4732" />
+          <entry key="JAVA" value="5687" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basico/src/ComoTeLlamas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#902#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basico/src/ConversorMonedas.java">
+        <entry file="file://$PROJECT_DIR$/Basico/src/PromedioNotas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            <state relative-caret-position="476">
+              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,10 +79,11 @@
         <option value="$PROJECT_DIR$/Basico/src/ComoTeLlamas.java" />
         <option value="$PROJECT_DIR$/Basico/src/ConversorPulgadasCM.java" />
         <option value="$PROJECT_DIR$/Basico/src/ConversorMonedas.java" />
+        <option value="$PROJECT_DIR$/Basico/src/PromedioNotas.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -122,6 +108,10 @@
               <item name="Basico" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MomentumJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Calculadora" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -130,7 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537596976793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537598712740" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -145,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConversorMonedas">
+  <component name="RunManager" selected="Application.PromedioNotas">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculadora" />
       <module name="Calculadora" />
@@ -174,14 +164,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PromedioNotas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PromedioNotas" />
+      <module name="Basico" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ComoTeLlamas" />
       <item itemvalue="Application.Calculadora" />
       <item itemvalue="Application.ConversorPulgadasCM" />
       <item itemvalue="Application.ConversorMonedas" />
+      <item itemvalue="Application.PromedioNotas" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PromedioNotas" />
         <item itemvalue="Application.ConversorMonedas" />
         <item itemvalue="Application.ConversorPulgadasCM" />
         <item itemvalue="Application.ComoTeLlamas" />
@@ -203,9 +202,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36870897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -214,7 +214,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3264642" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -237,13 +237,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ejercicio 1/Calculadora/src/Calculadora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basico/src/ConversorPulgadasCM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -268,10 +261,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basico/src/ConversorMonedas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        <state relative-caret-position="476">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejercicio 1/Calculadora/src/Calculadora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basico/src/PromedioNotas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
           </folding>
         </state>
       </provider>
