@@ -7,12 +7,33 @@ public class ProyectoKiosko {
 
 
     public static void main(String[] args) {
+        ListaDeProductos estaLista = new ListaDeProductos();
+        Producto esteProducto = new Producto();
+        Scanner ent = new Scanner(System.in);
         
+        // cargar nueva lista de productos por parte del usuario a traves del subprograma cargarLista
+        boolean denuevo = true;
+        String questioner;
         
+        while(denuevo == true){
+            cargarLista();
+            
+            System.out.println("Desea cargar otra lista más si/no?");
+            questioner = ent.nextLine();
+            
+            if(questioner.equalsIgnoreCase("no")){
+                
+                denuevo = false;
+            }
+            
+        }
         
     }
     
-    public ListaDeProductos cargarLista(){
+    
+    
+    //crear un subprograma para cargar una lista de productos
+    public static ListaDeProductos cargarLista(){
         Producto nuevaLista = new Producto();
         ListaDeProductos ingresados = new ListaDeProductos();
         
@@ -37,5 +58,24 @@ public class ProyectoKiosko {
         
     return ingresados;
             }
+    
+    
+    //Crear un subprograma que muestre todos los productos de la lista
+    
+    public void productosDeLaLista(ListaDeProductos lista){
+        int i = 0;
+        while (i < lista.lista.size()) {
+            System.out.println(lista.lista.get(i));
+              i++;
+        }
+    }
+    
+    //Crear un subprograma que muestre todos los productos de la lista
+    
+    //Crear un subprograma que muestre el producto mas caro
 
+    
+      //Crear un subprograma que muestre el producto mas barato
+    
+    // Crear un subprograma que muestre todos los productos de los cuáles no hay stock en el momento.
 }
